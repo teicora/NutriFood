@@ -1,0 +1,42 @@
+body {
+    background-image: url('images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+.logo img {
+    width: 100px;
+}
+nav.tabs {
+    display: flex;
+}
+nav.tabs img {
+    width: 50px;
+    margin-left: 10px;
+}
+main.content {
+    padding: 20px;
+}
+section.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
